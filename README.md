@@ -7,3 +7,7 @@
 # Install Plugins
 
 ``:PlugInstall``
+
+# Fonts
+
+1. Install JetBrains Mono Font from https://www.jetbrains.com/lp/mono/
