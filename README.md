@@ -10,7 +10,8 @@
 
 # Fonts
 
-1. Install JetBrains Mono Font from https://www.jetbrains.com/lp/mono/
+- Install JetBrains Mono Font from https://www.jetbrains.com/lp/mono/
+  - https://github.com/ryanoasis/nerd-fonts
 
 # Links
 
