@@ -11,3 +11,7 @@
 # Fonts
 
 1. Install JetBrains Mono Font from https://www.jetbrains.com/lp/mono/
+
+# Links
+
+- https://shapeshed.com/vim-netrw/
