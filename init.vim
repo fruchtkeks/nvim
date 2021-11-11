@@ -1,4 +1,4 @@
-" Allgemein
+" General
 
 :set list listchars=space:.,tab:⟶\ ,trail:·,extends:>,precedes:<,nbsp:%
 :set list
@@ -35,15 +35,27 @@ let g:netrw_winsize = 25
 
 call plug#begin()
 
-" Layout
-Plug 'https://github.com/kyazdani42/nvim-web-devicons'
-Plug 'https://github.com/kyazdani42/nvim-tree.lua'
+" General
 
-" Color Scheme
-Plug 'https://github.com/Mofiqul/vscode.nvim'
+"Plug 'https://github.com/preservim/nerdtree'
+Plug 'https://github.com/ryanoasis/vim-devicons'
+
+Plug 'https://github.com/vim-airline/vim-airline'
+Plug 'https://github.com/vim-airline/vim-airline-themes'
+
+"Plug 'https://github.com/preservim/tagbar'
+"Plug 'https://github.com/vim-syntastic/syntastic'
+Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
+
+" Themes
+Plug 'https://github.com/fruchtkeks/vscode.nvim'
 
 call plug#end()
 
 " ------------------ Colors ------------------
 
 :colorscheme vscode
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='light'
