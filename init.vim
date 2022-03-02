@@ -1,10 +1,11 @@
-" General
+" Allgemein
 
 :set list listchars=space:.,tab:⟶\ ,trail:·,extends:>,precedes:<,nbsp:%
 :set list
 
 " Format
 
+:set expandtab
 :set autoindent
 :set smarttab
 :set tabstop=4
@@ -35,7 +36,7 @@ let g:netrw_winsize = 25
 
 call plug#begin()
 
-" General
+" Allgemein
 
 "Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/ryanoasis/vim-devicons'
@@ -47,7 +48,12 @@ Plug 'https://github.com/vim-airline/vim-airline-themes'
 "Plug 'https://github.com/vim-syntastic/syntastic'
 Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
 
-" Themes
+"Plug 'edluffy/hologram.nvim'
+
+" Code
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Color Scheme
 Plug 'https://github.com/fruchtkeks/vscode.nvim'
 
 call plug#end()
