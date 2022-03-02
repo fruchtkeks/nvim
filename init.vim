@@ -5,6 +5,7 @@
 
 " Format
 
+:set expandtab
 :set autoindent
 :set smarttab
 :set tabstop=4
@@ -47,7 +48,12 @@ Plug 'https://github.com/vim-airline/vim-airline-themes'
 "Plug 'https://github.com/vim-syntastic/syntastic'
 Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
 
-" Themes
+"Plug 'edluffy/hologram.nvim'
+
+" Code
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Color Scheme
 Plug 'https://github.com/fruchtkeks/vscode.nvim'
 
 call plug#end()
