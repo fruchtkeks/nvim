@@ -3,11 +3,13 @@ _Note: This repository contains my setup of Neovim. It is not meant to be a univ
 ## Setup
 
 1. Install zsh and Oh My Zsh
-2. Install Neovim from https://github.com/neovim/neovim/wiki/Installing-Neovim
-3. Install Plugin Manager from https://github.com/junegunn/vim-plug
-4. Paste Configuration (init.vim) into ~/.config/nvim
-5. Install Terminal from https://github.com/microsoft/terminal
-6. Setup Neovim Terminal Profile
+2. Install tmux
+3. Set Configuration for tmux
+4. Install Neovim from https://github.com/neovim/neovim/wiki/Installing-Neovim
+5. Install Plugin Manager from https://github.com/junegunn/vim-plug
+6. Paste Configuration (init.vim) into ~/.config/nvim
+7. Install Terminal from https://github.com/microsoft/terminal
+8. Setup Neovim Terminal Profile
 
 ```sh
 mkdir ~/bin
