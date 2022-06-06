@@ -2,9 +2,27 @@ _Note: This repository contains my setup of Neovim. It is not meant to be a univ
 
 ## Setup
 
-1. Install nvim from https://github.com/neovim/neovim/wiki/Installing-Neovim
-2. Install Plugin Manager from https://github.com/junegunn/vim-plug
-3. Paste Configuration (init.vim) into ~/.config/nvim
+1. Install zsh and Oh My Zsh
+2. Install Neovim from https://github.com/neovim/neovim/wiki/Installing-Neovim
+3. Install Plugin Manager from https://github.com/junegunn/vim-plug
+4. Paste Configuration (init.vim) into ~/.config/nvim
+5. Install Terminal from https://github.com/microsoft/terminal
+6. Setup Neovim Terminal Profile
+
+```sh
+mkdir ~/bin
+cd ~/bin
+wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+chmod +x nvim.appimage
+ln -s nvim.appimage nv
+
+printf '\nexport PATH="$HOME/bin:$PATH"\n' >> ~/.bashrc
+
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+[...]
+```
 
 ## Install Plugins
 
