@@ -1,0 +1,21 @@
+{
+  "altGrAliasing": true,
+  "antialiasingMode": "grayscale",
+  "closeOnExit": "graceful",
+  "colorScheme": "Tango Light",
+  "commandline": "C:\\Windows\\system32\\wsl.exe -d Ubuntu",
+  "cursorShape": "bar",
+  "font": 
+  {
+    "face": "JetBrainsMono Nerd Font Mono",
+    "size": 9,
+    "weight": "semi-light"
+  },
+  "historySize": 9001,
+  "name": "Neovim",
+  "padding": "8, 8, 8, 8",
+  "snapOnInput": true,
+  "startingDirectory": "~",
+  "tabTitle": null,
+  "useAcrylic": false
+}
