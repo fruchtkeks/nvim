@@ -1,24 +1,24 @@
 " General
 
-:set list listchars=space:.,tab:⟶\ ,trail:·,extends:>,precedes:<,nbsp:%
-:set list
+set list listchars=space:.,tab:⟶\ ,trail:·,extends:>,precedes:<,nbsp:%
+set list
 
 " Format
 
-:set expandtab
-:set autoindent
-:set smarttab
-:set tabstop=4
-:set softtabstop=4
-:set shiftwidth=4
+set expandtab
+set autoindent
+set smarttab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
 " Navigation
 
-:set number
-:set showmatch
-:set mouse=a
+set number
+set showmatch
+set mouse=a
 
-:set whichwrap+=<,>,h,l,[,]
+set whichwrap+=<,>,h,l,[,]
 
 " Keymap
 
@@ -56,7 +56,7 @@ call plug#end()
 
 " ------------------ Colors ------------------
 
-:colorscheme vscode
+colorscheme vscode
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='solarized'
