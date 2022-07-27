@@ -37,7 +37,6 @@ let g:netrw_winsize = 25
 call plug#begin()
 
 " General
-
 Plug 'https://github.com/ryanoasis/vim-devicons'
 
 Plug 'https://github.com/vim-airline/vim-airline'
