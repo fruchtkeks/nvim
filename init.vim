@@ -38,20 +38,16 @@ call plug#begin()
 
 " General
 
-"Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/vim-airline/vim-airline-themes'
 
-"Plug 'https://github.com/preservim/tagbar'
-"Plug 'https://github.com/vim-syntastic/syntastic'
 Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
-
-"Plug 'edluffy/hologram.nvim'
 
 " Code
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'dense-analysis/ale'
 
 " Color Scheme
 Plug 'https://github.com/fruchtkeks/vscode.nvim'
