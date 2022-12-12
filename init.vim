@@ -48,6 +48,9 @@ Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'dense-analysis/ale'
 
+" Git
+Plug 'https://github.com/tpope/vim-fugitive'
+
 " Color Scheme
 Plug 'https://github.com/fruchtkeks/vscode.nvim'
 
