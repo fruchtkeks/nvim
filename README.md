@@ -27,6 +27,16 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 [...]
 ```
 
+### Setup on WSL1
+
+WSL1 doesn't support FUSE (which is required to run AppImages). When using Debian, the pre-compiled binaries from the Release Page on GitHub can be used:
+
+```
+wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
+sudo apt install ./nvim-linux64.deb
+ln -s /usr/bin/nvim ~/bin/nv
+```
+
 ## Install Plugins
 
 ``:PlugInstall``
